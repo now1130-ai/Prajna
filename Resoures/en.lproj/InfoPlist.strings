@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  shopga
+
+  Created by gogo on 2025/7/30.
+  
+*/
+
+"NSFaceIDUsageDescription" = "Please allow Face/Touch ID access. This allows you to unlock your account. Do you allow UU Wallet have access to your Face/Touch ID ?";
+"NSPhotoLibraryUsageDescription" = "Please allow Photos access. This allows you to edit your personal informations and scan addresses. Do you allow UU Wallet have access to your photos ?";
+"NSCameraUsageDescription" = "Please allow Camera access. This allows you to edit your personal informations and scan addresses. Do you allow UU Wallet have access to your camera ?";
+"NSLocationWhenInUseUsageDescription" = "UU Wallet needs location permissions to make it easier for you to select offline stores. Do you allow UU Wallet have access to location ?";
+"NSLocationAlwaysUsageDescription" = "UU Wallet needs location permissions to make it easier for you to select offline stores. Do you allow UU Wallet have access to location ?";
+"NSLocationAlwaysAndWhenInUseUsageDescription"="UU Wallet needs location permissions to make it easier for you to select offline stores. Do you allow UU Wallet have access to location ?";
+"NSLocationUsageDescription" = "UU Wallet needs location permissions to make it easier for you to select offline stores. Do you allow UU Wallet have access to location ?";
+"NSLocalNetworkUsageDescription" = "Atlantis would use Bonjour Service to discover Proxyman app from your local network.";
+"NSPhotoLibraryAddUsageDescription" = "Please allow Photos access. This allows you to share photos from your library and save fhotos to your albums. Do you allow UU Wallet have access to your photos ?";

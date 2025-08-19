@@ -1,0 +1,42 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Mac OS X Finder and whatnot
+.DS_Store
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Mac OS X Finder and whatnot
+.DS_Store
+## Build generated
+build/
+Pods/
+Podfile.lock
+DerivedData/
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+## Other
+*.moved-aside
+*.xcuserstate
+*.xccheckout
+*.xcuserdatad
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+#*.pbxproj
+xcuserdata
+build
+scripts/i18n/generated/
+scripts/scan_unused_code/generated/
+
+node_modules/

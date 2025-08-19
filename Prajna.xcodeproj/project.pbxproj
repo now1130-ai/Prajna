@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		58395405B95ABAEAF40902F6 /* Pods_Prajna_PrajnaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60D25A367B0B4F770CCCD08 /* Pods_Prajna_PrajnaUITests.framework */; };
+		C7F262618C1675E45C0A0742 /* Pods_PrajnaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0BDDEF2ED54754CF56B821 /* Pods_PrajnaTests.framework */; };
+		ED05EC096F660542CEF6422A /* Pods_Prajna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C72978529F0FD172EF192A /* Pods_Prajna.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D804A1F22E545C2E00511D10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144291F774E9EAFA4394D0D7 /* Pods-Prajna-PrajnaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prajna-PrajnaUITests.release.xcconfig"; path = "Target Support Files/Pods-Prajna-PrajnaUITests/Pods-Prajna-PrajnaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31936150E66354C12B4CF530 /* Pods-Prajna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prajna.debug.xcconfig"; path = "Target Support Files/Pods-Prajna/Pods-Prajna.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0BDDEF2ED54754CF56B821 /* Pods_PrajnaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrajnaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE2A30001E522B59BE8E7C1 /* Pods-PrajnaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrajnaTests.debug.xcconfig"; path = "Target Support Files/Pods-PrajnaTests/Pods-PrajnaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9035EEF42AF8EBC01FBF6EED /* Pods-Prajna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prajna.release.xcconfig"; path = "Target Support Files/Pods-Prajna/Pods-Prajna.release.xcconfig"; sourceTree = "<group>"; };
+		A60D25A367B0B4F770CCCD08 /* Pods_Prajna_PrajnaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prajna_PrajnaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C72978529F0FD172EF192A /* Pods_Prajna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prajna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D804A1DB2E545C2C00511D10 /* Prajna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prajna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D804A1F12E545C2E00511D10 /* PrajnaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrajnaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D804A1FB2E545C2E00511D10 /* PrajnaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrajnaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59C6838D92C11F6B10F9D73 /* Pods-PrajnaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrajnaTests.release.xcconfig"; path = "Target Support Files/Pods-PrajnaTests/Pods-PrajnaTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECDACF18E84C40A824463516 /* Pods-Prajna-PrajnaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prajna-PrajnaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Prajna-PrajnaUITests/Pods-Prajna-PrajnaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED05EC096F660542CEF6422A /* Pods_Prajna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F262618C1675E45C0A0742 /* Pods_PrajnaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58395405B95ABAEAF40902F6 /* Pods_Prajna_PrajnaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6220F492168FBFD84D5358E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31936150E66354C12B4CF530 /* Pods-Prajna.debug.xcconfig */,
+				9035EEF42AF8EBC01FBF6EED /* Pods-Prajna.release.xcconfig */,
+				ECDACF18E84C40A824463516 /* Pods-Prajna-PrajnaUITests.debug.xcconfig */,
+				144291F774E9EAFA4394D0D7 /* Pods-Prajna-PrajnaUITests.release.xcconfig */,
+				7CE2A30001E522B59BE8E7C1 /* Pods-PrajnaTests.debug.xcconfig */,
+				E59C6838D92C11F6B10F9D73 /* Pods-PrajnaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		722F0E100F7270EB1B14FB46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5C72978529F0FD172EF192A /* Pods_Prajna.framework */,
+				A60D25A367B0B4F770CCCD08 /* Pods_Prajna_PrajnaUITests.framework */,
+				5B0BDDEF2ED54754CF56B821 /* Pods_PrajnaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D804A1D22E545C2C00511D10 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				D804A1F42E545C2E00511D10 /* PrajnaTests */,
 				D804A1FE2E545C2E00511D10 /* PrajnaUITests */,
 				D804A1DC2E545C2C00511D10 /* Products */,
+				6220F492168FBFD84D5358E4 /* Pods */,
+				722F0E100F7270EB1B14FB46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D804A2042E545C2E00511D10 /* Build configuration list for PBXNativeTarget "Prajna" */;
 			buildPhases = (
+				4E8A6387AF19DE240656C57F /* [CP] Check Pods Manifest.lock */,
 				D804A1D72E545C2C00511D10 /* Sources */,
 				D804A1D82E545C2C00511D10 /* Frameworks */,
 				D804A1D92E545C2C00511D10 /* Resources */,
+				40EBEF0A1459073BE94AA4E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				D804A1DD2E545C2C00511D10 /* Prajna */,
 			);
 			name = Prajna;
-			packageProductDependencies = (
-			);
 			productName = Prajna;
 			productReference = D804A1DB2E545C2C00511D10 /* Prajna.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D804A2092E545C2E00511D10 /* Build configuration list for PBXNativeTarget "PrajnaTests" */;
 			buildPhases = (
+				044EE92E9C991E391351D830 /* [CP] Check Pods Manifest.lock */,
 				D804A1ED2E545C2E00511D10 /* Sources */,
 				D804A1EE2E545C2E00511D10 /* Frameworks */,
 				D804A1EF2E545C2E00511D10 /* Resources */,
@@ -147,8 +191,6 @@
 				D804A1F42E545C2E00511D10 /* PrajnaTests */,
 			);
 			name = PrajnaTests;
-			packageProductDependencies = (
-			);
 			productName = PrajnaTests;
 			productReference = D804A1F12E545C2E00511D10 /* PrajnaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D804A20C2E545C2E00511D10 /* Build configuration list for PBXNativeTarget "PrajnaUITests" */;
 			buildPhases = (
+				7418A90D4EF511C2518B5BB9 /* [CP] Check Pods Manifest.lock */,
 				D804A1F72E545C2E00511D10 /* Sources */,
 				D804A1F82E545C2E00511D10 /* Frameworks */,
 				D804A1F92E545C2E00511D10 /* Resources */,
+				3615DAC15171D59C2C358D97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				D804A1FE2E545C2E00511D10 /* PrajnaUITests */,
 			);
 			name = PrajnaUITests;
-			packageProductDependencies = (
-			);
 			productName = PrajnaUITests;
 			productReference = D804A1FB2E545C2E00511D10 /* PrajnaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -205,6 +247,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = D804A1D22E545C2C00511D10;
 			minimizedProjectReferenceProxies = 1;
@@ -243,6 +286,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044EE92E9C991E391351D830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrajnaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3615DAC15171D59C2C358D97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prajna-PrajnaUITests/Pods-Prajna-PrajnaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prajna-PrajnaUITests/Pods-Prajna-PrajnaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prajna-PrajnaUITests/Pods-Prajna-PrajnaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40EBEF0A1459073BE94AA4E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prajna/Pods-Prajna-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prajna/Pods-Prajna-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prajna/Pods-Prajna-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8A6387AF19DE240656C57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prajna-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7418A90D4EF511C2518B5BB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prajna-PrajnaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D804A1D72E545C2C00511D10 /* Sources */ = {
@@ -284,12 +438,14 @@
 /* Begin XCBuildConfiguration section */
 		D804A2052E545C2E00511D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31936150E66354C12B4CF530 /* Pods-Prajna.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W9W9XT8P87;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Prajna/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,6 +453,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,12 +469,14 @@
 		};
 		D804A2062E545C2E00511D10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9035EEF42AF8EBC01FBF6EED /* Pods-Prajna.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W9W9XT8P87;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Prajna/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +621,7 @@
 		};
 		D804A20A2E545C2E00511D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE2A30001E522B59BE8E7C1 /* Pods-PrajnaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +641,7 @@
 		};
 		D804A20B2E545C2E00511D10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59C6838D92C11F6B10F9D73 /* Pods-PrajnaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +661,7 @@
 		};
 		D804A20D2E545C2E00511D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDACF18E84C40A824463516 /* Pods-Prajna-PrajnaUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -516,6 +679,7 @@
 		};
 		D804A20E2E545C2E00511D10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144291F774E9EAFA4394D0D7 /* Pods-Prajna-PrajnaUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
